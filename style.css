@@ -1,0 +1,189 @@
+/* Global styles */
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+/* Header styles */
+
+header {
+
+  background-color: #333;
+
+  color: #fff;
+
+  padding: 20px;
+
+}
+
+nav ul {
+
+  margin: 0;
+
+  padding: 0;
+
+  list-style: none;
+
+}
+
+nav li {
+
+  display: inline-block;
+
+  margin-right: 20px;
+
+}
+
+nav a {
+
+  color: #fff;
+
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
+
+}
+
+nav a:hover {
+
+  color: #f00;
+
+}
+
+/* Main styles */
+
+main {
+
+  max-width: 800px;
+
+  margin: 0 auto;
+
+  padding: 20px;
+
+}
+
+section {
+
+  margin-bottom: 40px;
+
+}
+
+h1, h2 {
+
+  text-align: center;
+
+  font-weight: normal;
+
+}
+
+h2 {
+
+  font-size: 24px;
+
+}
+
+ul {
+
+  list-style: none;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+li {
+
+  margin-bottom: 10px;
+
+}
+
+a {
+
+  color: #333;
+
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
+
+}
+
+a:hover {
+
+  color: #f00;
+
+}
+
+/* Contact form styles */
+
+form {
+
+  max-width: 600px;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+label {
+
+  font-weight: bold;
+
+  margin-bottom: 10px;
+
+}
+
+input[type="text"],
+
+input[type="email"],
+
+textarea {
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  border: none;
+
+  margin-bottom: 20px;
+
+  font-size: 16px;
+
+}
+
+button[type="submit"] {
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  border: none;
+
+  background-color: #333;
+
+  color: #fff;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+
+}
+
+button[type="submit"]:hover {
+
+  background-color: #f00;
+
+}
